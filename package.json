@@ -1,0 +1,25 @@
+{
+  "name": "plus-nanami-theme",
+  "displayName": "+Nanami",
+  "description": "A dark VS Code color theme inspired by Arihara Nanami's character colors.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hskzstruck/nanami-skin.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "+Nanami",
+        "uiTheme": "vs-dark",
+        "path": "./themes/plus-nanami-color-theme.json"
+      }
+    ]
+  }
+}
